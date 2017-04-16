@@ -1,3 +1,9 @@
+# electron 测试项目-桌面小应用
+
+``` javascript
+npm start
+```
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**

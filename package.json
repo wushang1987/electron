@@ -1,10 +1,13 @@
 {
-  "name": "electron-quick-start",
+  "name": "hahatest",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "main.js",
+  "main": "./app/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build",
+    "packager": "electron-packager ./"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +20,11 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "devtron": "^1.4.0",
+    "electron": "~1.6.2",
+    "electron-packager": "^8.6.0"
+  },
+  "dependencies": {
+    "electron-builder": "^17.0.0"
   }
 }
